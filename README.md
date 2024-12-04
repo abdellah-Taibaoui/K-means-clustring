@@ -12,10 +12,7 @@ This repository demonstrates the implementation of the **K-Means clustering algo
 3. [Implementation Details](#implementation-details)
    - [K-Means without PCA](#k-means-without-pca)
    - [K-Means with PCA](#k-means-with-pca)
-4. [Results](#results)
-5. [Installation and Usage](#installation-and-usage)
-6. [Future Work](#future-work)
-7. [License](#license)
+
 
 ---
 
@@ -69,15 +66,6 @@ Each image is represented as a vector of 784 features (flattened from \( 28 \tim
 - **Clustering**:
   - Perform K-Means on the lower-dimensional dataset.
   - Compare results with the non-PCA version.
-
----
-
-## Results
-
-### Visualization
-
-- **Cluster Centroids**: Visualized centroids for each cluster as reconstructed images.
-- **Reduced Dimensions**: Plotted the clusters in 2D space (PCA-reduced).
 
 ---
 
