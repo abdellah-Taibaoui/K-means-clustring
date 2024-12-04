@@ -1,6 +1,5 @@
 # K-Means Clustering on Fashion-MNIST with and without PCA
 
-![K-Means Clustering](https://via.placeholder.com/800x200?text=K-Means+on+Fashion+MNIST)
 
 This repository demonstrates the implementation of the **K-Means clustering algorithm** on the **Fashion-MNIST dataset**, both with and without dimensionality reduction using **Principal Component Analysis (PCA)**. The project is presented in a Jupyter Notebook, making it easy to follow and reproduce the experiments.
 
@@ -80,29 +79,5 @@ Each image is represented as a vector of 784 features (flattened from \( 28 \tim
 - **Cluster Centroids**: Visualized centroids for each cluster as reconstructed images.
 - **Reduced Dimensions**: Plotted the clusters in 2D space (PCA-reduced).
 
-### Evaluation Metrics
-
-| Metric                     | Without PCA  | With PCA       |
-|----------------------------|--------------|----------------|
-| Number of Features         | 784          | ~XX (after PCA)|
-| Inertia (Clustering Error) | XXXX         | XXXX           |
-| Silhouette Score           | X.XX         | X.XX           |
-
-*Replace `XX` and `XXXX` with actual results.*
-
 ---
 
-## Installation and Usage
-
-### Prerequisites
-
-- Python 3.x
-- Jupyter Notebook
-- Required libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `sklearn`, `tensorflow` (for Fashion-MNIST dataset).
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/kmeans-fashion-mnist.git
-   cd kmeans-fashion-mnist
